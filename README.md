@@ -16,6 +16,6 @@
 - Modify `apiUrl` value in `frontend/src/constants.js`. Right now its already pointing to the working aws eks loadbalancer.
 - Run react
   ```
-  npm install --save && npm run start
+  pushd frontend && npm install --save && npm run start && popd
   ```
   
