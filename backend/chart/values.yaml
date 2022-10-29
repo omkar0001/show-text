@@ -1,0 +1,9 @@
+namespaceOverride: 'show-text'
+name: show-text
+replicaCount: 1
+
+imageName: omkar0001/fetch-text
+imageTag: latest  # this needs to be supplied from helm
+
+port: 3000
+mongoDBURI: mongodb+srv://omkar0001:XXXXXXXX@cluster0.rhu8zom.mongodb.net/sample?retryWrites=true&w=majority
